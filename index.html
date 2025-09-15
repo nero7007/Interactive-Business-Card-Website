@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouran Musaad Elshwehy - React Frontend Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="nav-btn" id="langToggle">
+                <span class="btn-icon">🌐</span>
+                <span class="btn-text" data-en="English" data-ar="عربي">عربي</span>
+            </button>
+            <button class="nav-btn" id="themeToggle">
+                <span class="btn-icon">🌓</span>
+                <span class="btn-text" data-en="Dark Mode" data-ar="الوضع المظلم">الوضع المظلم</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Business Card -->
+        <div class="business-card">
+            <!-- Personal Info -->
+            <div class="card-header">
+                <h1 class="name" data-en="Nouran Musaad Elshwehy" data-ar="نوران مسعد الشويحي">نوران مسعد الشويحي</h1>
+                <h2 class="title" data-en="React Frontend Web Developer" data-ar="مطورة واجهات أمامية بتقنية React">مطورة واجهات أمامية بتقنية React</h2>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button class="action-btn" data-section="summary">
+                    <span class="btn-icon">📋</span>
+                    <span class="btn-text" data-en="Professional Summary" data-ar="الملخص المهني">الملخص المهني</span>
+                </button>
+                <button class="action-btn" data-section="experience">
+                    <span class="btn-icon">💼</span>
+                    <span class="btn-text" data-en="Experience & Projects" data-ar="الخبرة والمشاريع">الخبرة والمشاريع</span>
+                </button>
+                <button class="action-btn" data-section="skills">
+                    <span class="btn-icon">⚡</span>
+                    <span class="btn-text" data-en="Technical Skills" data-ar="المهارات التقنية">المهارات التقنية</span>
+                </button>
+                <button class="action-btn" data-section="competencies">
+                    <span class="btn-icon">🎯</span>
+                    <span class="btn-text" data-en="Core Competencies" data-ar="الكفاءات الأساسية">الكفاءات الأساسية</span>
+                </button>
+                <button class="action-btn" data-section="achievements">
+                    <span class="btn-icon">🏆</span>
+                    <span class="btn-text" data-en="Key Achievements" data-ar="الإنجازات الرئيسية">الإنجازات الرئيسية</span>
+                </button>
+                <button class="action-btn" data-section="development">
+                    <span class="btn-icon">📚</span>
+                    <span class="btn-text" data-en="Professional Development" data-ar="التطوير المهني">التطوير المهني</span>
+                </button>
+                <button class="action-btn" data-section="contact">
+                    <span class="btn-icon">📞</span>
+                    <span class="btn-text" data-en="Contact Information" data-ar="معلومات الاتصال">معلومات الاتصال</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Content Sections -->
+        <div class="content-container" id="contentContainer">
+            <!-- Professional Summary -->
+            <div class="content-section" id="summary">
+                <h3 data-en="Professional Summary" data-ar="الملخص المهني">الملخص المهني</h3>
+                <p data-en="Passionate junior React developer with months of programming experience and a solid foundation in frontend development. Specialized in HTML, CSS, JavaScript, and React.js with a strong drive for continuous learning and professional growth. I thrive in collaborative environments and constantly strive to improve my technical skills and contribute to team success. Seeking an opportunity at a company that supports developing new talents and provides a stimulating learning environment." data-ar="مطورة React مبتدئة متحمسة مع شهور من الخبرة في البرمجة وأساس قوي في تطوير الواجهات الأمامية. متخصصة في HTML و CSS و JavaScript و React.js مع دافع قوي للتعلم المستمر والنمو المهني. أزدهر في البيئات التعاونية وأسعى باستمرار لتحسين مهاراتي التقنية والمساهمة في نجاح الفريق. أبحث عن فرصة في شركة تدعم تطوير المواهب الجديدة وتوفر بيئة تعليمية محفزة.">مطورة React مبتدئة متحمسة مع شهور من الخبرة في البرمجة وأساس قوي في تطوير الواجهات الأمامية. متخصصة في HTML و CSS و JavaScript و React.js مع دافع قوي للتعلم المستمر والنمو المهني. أزدهر في البيئات التعاونية وأسعى باستمرار لتحسين مهاراتي التقنية والمساهمة في نجاح الفريق. أبحث عن فرصة في شركة تدعم تطوير المواهب الجديدة وتوفر بيئة تعليمية محفزة.</p>
+            </div>
+
+            <!-- Experience & Projects -->
+            <div class="content-section" id="experience">
+                <h3 data-en="Professional Experience & Projects" data-ar="الخبرة المهنية والمشاريع">الخبرة المهنية والمشاريع</h3>
+                <div class="experience-item">
+                    <h4 data-en="Junior React Developer" data-ar="مطورة React مبتدئة">مطورة React مبتدئة</h4>
+                    <p class="company" data-en="Digital Egypt Pioneers Initiative - DEPI" data-ar="مبادرة رواد مصر الرقمية - DEPI">مبادرة رواد مصر الرقمية - DEPI</p>
+                    <p class="duration" data-en="07/2025 – Present" data-ar="07/2025 – الحالي">07/2025 – الحالي</p>
+                    <ul>
+                        <li data-en="Developed interactive user interfaces using React.js and JavaScript" data-ar="تطوير واجهات المستخدم التفاعلية باستخدام React.js و JavaScript">تطوير واجهات المستخدم التفاعلية باستخدام React.js و JavaScript</li>
+                        <li data-en="Collaborated with cross-functional teams to build modern web applications" data-ar="التعاون مع فرق متعددة الوظائف لبناء تطبيقات ويب حديثة">التعاون مع فرق متعددة الوظائف لبناء تطبيقات ويب حديثة</li>
+                        <li data-en="Applied Component-based architecture concepts in application development" data-ar="تطبيق مفاهيم الهندسة المعمارية القائمة على المكونات في تطوير التطبيقات">تطبيق مفاهيم الهندسة المعمارية القائمة على المكونات في تطوير التطبيقات</li>
+                        <li data-en="Utilized HTML5, CSS3, and Bootstrap to create responsive and attractive designs" data-ar="استخدام HTML5 و CSS3 و Bootstrap لإنشاء تصاميم متجاوبة وجذابة">استخدام HTML5 و CSS3 و Bootstrap لإنشاء تصاميم متجاوبة وجذابة</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h4 data-en="Personal Projects" data-ar="المشاريع الشخصية">المشاريع الشخصية</h4>
+                    <p class="company" data-en="Egypt Digital Pioneers Initiative (Round 3)" data-ar="مبادرة رواد مصر الرقمية (الجولة الثالثة)">مبادرة رواد مصر الرقمية (الجولة الثالثة)</p>
+                    <ul>
+                        <li data-en="Developed several web applications using React.js and JavaScript" data-ar="تطوير عدة تطبيقات ويب باستخدام React.js و JavaScript">تطوير عدة تطبيقات ويب باستخدام React.js و JavaScript</li>
+                        <li data-en="Applied best practices in writing clean and maintainable code" data-ar="تطبيق أفضل الممارسات في كتابة كود نظيف وقابل للصيانة">تطبيق أفضل الممارسات في كتابة كود نظيف وقابل للصيانة</li>
+                        <li data-en="Utilized Git and GitHub for version control and project collaboration" data-ar="استخدام Git و GitHub لتحكم في الإصدارات وتعاون المشروع">استخدام Git و GitHub لتحكم في الإصدارات وتعاون المشروع</li>
+                        <li data-en="To Do List Project: A comprehensive task management application with Arabic/English support" data-ar="مشروع قائمة المهام: تطبيق شامل لإدارة المهام مع دعم العربية/الإنجليزية">مشروع قائمة المهام: تطبيق شامل لإدارة المهام مع دعم العربية/الإنجليزية</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Technical Skills -->
+            <div class="content-section" id="skills">
+                <h3 data-en="Technical Skills" data-ar="المهارات التقنية">المهارات التقنية</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">HTML5</div>
+                    <div class="skill-item">CSS3</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">TypeScript</div>
+                    <div class="skill-item">React.js</div>
+                    <div class="skill-item">Bootstrap Framework</div>
+                    <div class="skill-item">Sass</div>
+                    <div class="skill-item">Git Version Control</div>
+                    <div class="skill-item">GitHub</div>
+                </div>
+            </div>
+
+            <!-- Core Competencies -->
+            <div class="content-section" id="competencies">
+                <h3 data-en="Core Competencies" data-ar="الكفاءات الأساسية">الكفاءات الأساسية</h3>
+                <div class="competencies-grid">
+                    <div class="competency-item" data-en="Written and Verbal Communication Skills" data-ar="مهارات التواصل الكتابي والشفوي">مهارات التواصل الكتابي والشفوي</div>
+                    <div class="competency-item" data-en="Professional Demeanor and Conduct" data-ar="السلوك والتصرف المهني">السلوك والتصرف المهني</div>
+                    <div class="competency-item" data-en="Team Leadership" data-ar="قيادة الفريق">قيادة الفريق</div>
+                    <div class="competency-item" data-en="Problem Solving" data-ar="حل المشاكل">حل المشاكل</div>
+                    <div class="competency-item" data-en="Attention to Detail" data-ar="الانتباه للتفاصيل">الانتباه للتفاصيل</div>
+                    <div class="competency-item" data-en="Punctual and Reliable" data-ar="الالتزام بالمواعيد والاعتمادية">الالتزام بالمواعيد والاعتمادية</div>
+                    <div class="competency-item" data-en="Adaptability" data-ar="القدرة على التكيف">القدرة على التكيف</div>
+                    <div class="competency-item" data-en="Self-Discipline" data-ar="الانضباط الذاتي">الانضباط الذاتي</div>
+                </div>
+            </div>
+
+            <!-- Key Achievements -->
+            <div class="content-section" id="achievements">
+                <h3 data-en="Key Achievements" data-ar="الإنجازات الرئيسية">الإنجازات الرئيسية</h3>
+                <ul>
+                    <li data-en="Successfully completed Egypt Digital Pioneers Initiative (Round 3) with focus on collaborative development" data-ar="إكمال مبادرة رواد مصر الرقمية (الجولة الثالثة) بنجاح مع التركيز على التطوير التعاوني">إكمال مبادرة رواد مصر الرقمية (الجولة الثالثة) بنجاح مع التركيز على التطوير التعاوني</li>
+                    <li data-en="Developed hands-on experience with modern development tools and best practices" data-ar="تطوير الخبرة العملية مع أدوات التطوير الحديثة وأفضل الممارسات">تطوير الخبرة العملية مع أدوات التطوير الحديثة وأفضل الممارسات</li>
+                    <li data-en="Built a strong portfolio of React.js projects demonstrating technical skills and creativity" data-ar="بناء محفظة قوية من مشاريع React.js تُظهر المهارات التقنية والإبداع">بناء محفظة قوية من مشاريع React.js تُظهر المهارات التقنية والإبداع</li>
+                    <li data-en="Actively engaged in developer community through attending tech events and participating in collaborative learning" data-ar="المشاركة النشطة في مجتمع المطورين من خلال حضور الأحداث التقنية والمشاركة في التعلم التعاوني">المشاركة النشطة في مجتمع المطورين من خلال حضور الأحداث التقنية والمشاركة في التعلم التعاوني</li>
+                </ul>
+            </div>
+
+            <!-- Professional Development -->
+            <div class="content-section" id="development">
+                <h3 data-en="Professional Development" data-ar="التطوير المهني">التطوير المهني</h3>
+                <ul>
+                    <li data-en="Continuous participation in tech events and conferences" data-ar="المشاركة المستمرة في الأحداث والمؤتمرات التقنية">المشاركة المستمرة في الأحداث والمؤتمرات التقنية</li>
+                    <li data-en="Self-learning of modern technologies and frameworks" data-ar="التعلم الذاتي للتقنيات والأطر الحديثة">التعلم الذاتي للتقنيات والأطر الحديثة</li>
+                    <li data-en="Engagement in online developer communities" data-ar="المشاركة في مجتمعات المطورين عبر الإنترنت">المشاركة في مجتمعات المطورين عبر الإنترنت</li>
+                    <li data-en="Keeping up with the latest trends in frontend development" data-ar="مواكبة أحدث الاتجاهات في تطوير الواجهات الأمامية">مواكبة أحدث الاتجاهات في تطوير الواجهات الأمامية</li>
+                    <li data-en="Developing collaboration and teamwork skills through group projects" data-ar="تطوير مهارات التعاون والعمل الجماعي من خلال المشاريع الجماعية">تطوير مهارات التعاون والعمل الجماعي من خلال المشاريع الجماعية</li>
+                </ul>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="content-section" id="contact">
+                <h3 data-en="Contact Information" data-ar="معلومات الاتصال">معلومات الاتصال</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <a href="mailto:nouranelshwehy663@gmail.com">nouranelshwehy663@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <a href="tel:+201003940903">+20-100-394-0903</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span data-en="Damietta, Egypt" data-ar="دمياط، مصر">دمياط، مصر</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <a href="https://linkedin.com/in/nouran-elshwehy-6a83a22b1" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💻</span>
+                        <a href="https://github.com/nero7007" target="_blank">GitHub Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
